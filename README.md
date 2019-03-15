@@ -4,10 +4,6 @@
 
 a megalo project
 
-## 作者
-
-朱平 <hzzhuping@corp.netease.com>
-
 ## 运行
 
 微信小程序：
