@@ -24,6 +24,8 @@ export default {
     console.log('current env is', Megalo.getEnv());
     console.log('current env is wechat', Megalo.getEnv() === Megalo.ENV_TYPE.WECHAT)
 
+    let pos = Megalo.getMenuButtonBoundingClientRect();
+    console.log('============position', pos);
     
     Megalo.request.interceptors.before.use(options => {
       options.header.b = '1';
